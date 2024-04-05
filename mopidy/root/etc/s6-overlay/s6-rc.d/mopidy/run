@@ -23,3 +23,6 @@ fi
 
 bashio::log.info 'Start Mopidy....'
 mopidy --config /etc/mopidy.conf
+
+bashio::log.info 'Start Mopidy-Spotify....'
+Mopidy-Spotify
