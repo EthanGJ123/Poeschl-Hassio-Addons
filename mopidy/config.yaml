@@ -2,8 +2,8 @@ name: Mopidy
 version: 2.2.0
 slug: mopidy
 panel_icon: mdi:music-circle
-description: Mopidy Music Server
-url: https://github.com/Poeschl/Hassio-Addons/tree/main/mopidy
+description: Ethan's Mopidy Music Server
+url: https://github.com/EthanGJ123/Poeschl-Hassio-Addons/tree/main/mopidy
 webui: http://[HOST]:[PORT:6680]/iris
 arch:
   - armv7
@@ -27,8 +27,8 @@ ports_description:
   6680/tcp: Web Frontend
   6600/tcp: MDP Connection
 options:
-  media_folder: /media/mopidy/media
-  playlist_folder: /media/mopidy/playlists
+  media_folder: /media/music
+  playlist_folder: /media/playlists
   locale: en_US
   country: en
   radio_net:
